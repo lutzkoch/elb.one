@@ -8,4 +8,4 @@ elb.one plant dein Training und überträgt strukturierte Workouts auf deine Spo
 
 **Hinweis:** elb.one ersetzt keine ärztliche Beratung, Diagnose oder Behandlung.
 
-[Datenschutzerklärung](datenschutz) · [Impressum](impressum)
+[Datenschutzerklärung](datenschutz) · [Impressum](impressum) · [AGB](agb)
