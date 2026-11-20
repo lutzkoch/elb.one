@@ -1,6 +1,6 @@
 # Datenschutzerklärung elb.one
 
-Stand: Oktober 2026
+Stand: November 2026
 
 ## 1. Verantwortlicher und Kontakt
 
@@ -28,7 +28,7 @@ Ob und welche optionalen Daten wir erhalten, entscheiden Sie selbst durch Ihre F
 Wir verarbeiten Ihre Daten auf den folgenden Grundlagen der Datenschutz-Grundverordnung (DSGVO):
 
 - **Vertragserfüllung, Art. 6 Abs. 1 lit. b DSGVO:** für die Trainingsplanung und die Übertragung geplanter Workouts, soweit Sie unsere Leistung nutzen.
-- **Einwilligung, Art. 6 Abs. 1 lit. a und Art. 9 Abs. 2 lit. a DSGVO:** für Gesundheitsdaten, also Erholungs-, Schlaf- und Herzfrequenzwerte, sowie für deren Auswertung durch einen KI-Dienst und für die Verbindung mit Intervals.icu. Ohne Ihre ausdrückliche Einwilligung verarbeiten wir diese Daten nicht.
+- **Einwilligung, Art. 6 Abs. 1 lit. a und Art. 9 Abs. 2 lit. a DSGVO:** für Gesundheitsdaten, also Erholungs-, Schlaf- und Herzfrequenzwerte, sowie für deren Auswertung durch einen KI-Dienst und für die Verbindung mit Intervals.icu bzw. Google Health. Ohne Ihre ausdrückliche Einwilligung verarbeiten wir diese Daten nicht.
 - **Berechtigtes Interesse, Art. 6 Abs. 1 lit. f DSGVO:** für technische Daten, die wir für Betrieb, Sicherheit und Fehlerbehebung benötigen. Sie können dem widersprechen, soweit Gründe vorliegen, die sich aus Ihrer besonderen Situation ergeben.
 
 ## 4. Verbindung mit Intervals.icu und Garmin
@@ -42,7 +42,17 @@ Sie können elb.one mit Ihrem Konto bei Intervals.icu verbinden, damit geplante 
 
 Garmin-bezogene Daten, die wir über Intervals.icu erhalten könnten, nutzen wir nur, soweit die Bedingungen von Intervals.icu und Garmin dies zulassen.
 
-## 5. Gesundheitsdaten und Ihre Einwilligung
+## 5. Verbindung mit Google Health (Fitbit)
+
+Wenn Sie ein Fitbit-Gerät nutzen, können Sie elb.one zusätzlich und unabhängig von Intervals.icu mit Ihrem Google-Konto verbinden, damit Herzfrequenzvariabilitätswerte (HRV) über die Google-Health-API in die App übernommen werden.
+
+- **Freigabe per OAuth:** Die Verbindung erfolgt über die Anmeldeseite von Google. Dort wählen Sie aus, welche Berechtigungen Sie erteilen. Wir erhalten dabei weder Ihr Google-Passwort noch Zugriff auf andere Google-Dienste oder -Daten.
+- **Umfang:** Wir fragen ausschließlich den lesenden Zugriff auf Gesundheitsmetriken (HRV) ab.
+- **Testphase:** Diese Verbindung läuft derzeit über den Testmodus der Google-OAuth-Freigabe. Zugangsdaten in diesem Modus sind zeitlich begrenzt gültig; nach Ablauf müssen Sie die Verbindung erneut herstellen. Zugelassen sind nur Google-Konten, die uns vorab als Testnutzer gemeldet wurden.
+- **Widerruf:** Sie können die Verbindung jederzeit in elb.one trennen oder den Zugriff in den Sicherheitseinstellungen Ihres Google-Kontos widerrufen.
+- **Eigene Datenschutzerklärung:** Google verarbeitet Ihre Daten in eigener Verantwortung nach seinen Datenschutzbestimmungen. Auf diese Verarbeitung haben wir keinen Einfluss.
+
+## 6. Gesundheitsdaten und Ihre Einwilligung
 
 Erholungs-, Schlaf-, Herzfrequenz- und Trainingsdaten können Rückschlüsse auf Ihre Gesundheit zulassen und gelten als besondere Kategorie personenbezogener Daten nach Art. 9 DSGVO. Wir verarbeiten sie nur, wenn Sie ausdrücklich eingewilligt haben.
 
@@ -51,9 +61,9 @@ Erholungs-, Schlaf-, Herzfrequenz- und Trainingsdaten können Rückschlüsse auf
 - **Widerruf:** Sie können die Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen, in der App unter Einstellungen → Über die App → KI-Funktionen oder per E-Mail an die oben genannte Adresse. Die Rechtmäßigkeit der bis dahin erfolgten Verarbeitung bleibt unberührt.
 - **Keine Weitergabe zu Werbezwecken:** Wir verkaufen Ihre Gesundheitsdaten nicht und nutzen sie nicht für Werbung.
 
-**KI-gestützte Auswertung:** Zur Auswertung übermitteln wir die von Ihnen freigegebenen Gesundheitsdaten (Trainings-, Erholungs- und ggf. Verletzungsangaben sowie Chat-Nachrichten) und, soweit Sie die Ernährungsanalyse nutzen, Mahlzeitenfotos oder -beschreibungen an einen KI-Dienst (siehe Abschnitt 6). Dafür holen wir Ihre gesonderte, ausdrückliche Einwilligung ein. Die Auswertung dient als Empfehlung für Ihr Training bzw. Ihre Ernährung. Entscheidungen mit rechtlicher oder ähnlich erheblicher Wirkung trifft die KI nicht. Wir übermitteln nur die Daten, die für die jeweilige Auswertung nötig sind, und nicht Ihren Namen oder Ihre E-Mail-Adresse.
+**KI-gestützte Auswertung:** Zur Auswertung übermitteln wir die von Ihnen freigegebenen Gesundheitsdaten (Trainings-, Erholungs- und ggf. Verletzungsangaben sowie Chat-Nachrichten) und, soweit Sie die Ernährungsanalyse nutzen, Mahlzeitenfotos oder -beschreibungen an einen KI-Dienst (siehe Abschnitt 7). Dafür holen wir Ihre gesonderte, ausdrückliche Einwilligung ein. Die Auswertung dient als Empfehlung für Ihr Training bzw. Ihre Ernährung. Entscheidungen mit rechtlicher oder ähnlich erheblicher Wirkung trifft die KI nicht. Wir übermitteln nur die Daten, die für die jeweilige Auswertung nötig sind, und nicht Ihren Namen oder Ihre E-Mail-Adresse.
 
-## 6. Empfänger, Hosting und Übermittlung in Drittländer
+## 7. Empfänger, Hosting und Übermittlung in Drittländer
 
 Ihre Daten geben wir nur weiter, soweit das für den Betrieb der App erforderlich ist oder Sie es veranlassen:
 
@@ -61,6 +71,7 @@ Ihre Daten geben wir nur weiter, soweit das für den Betrieb der App erforderlic
 | --- | --- | --- |
 | Supabase Inc. (Serverfunktionen) | Technische Weiterleitung Ihrer KI-Anfragen an Anthropic (siehe unten); Supabase speichert dabei selbst keine Trainings- oder Gesundheitsdaten, es gibt keine Datenbank mit Ihren Daten | Rechenzentrum in Irland (EU); Konzernsitz USA; Auftragsverarbeitungsvertrag nach Art. 28 DSGVO; Übermittlung in die USA und nach Singapur auf Grundlage von Standardvertragsklauseln der EU-Kommission |
 | Intervals.icu | Empfang der von Ihnen freigegebenen Workouts | Eigene Verantwortung des Dienstes; Verbindung nur auf Ihre Veranlassung |
+| Google LLC (Google Health API) | Empfang Ihrer HRV-Daten bei bestehender Fitbit-Verbindung | Eigene Verantwortung des Dienstes; Verbindung nur auf Ihre Veranlassung |
 
 Supabase setzt eigene Unterauftragsverarbeiter ein, darunter Amazon Web Services.
 
@@ -70,16 +81,16 @@ Supabase setzt eigene Unterauftragsverarbeiter ein, darunter Amazon Web Services
 
 Findet eine Verarbeitung außerhalb der EU oder des EWR statt, stützen wir sie auf einen Angemessenheitsbeschluss der EU-Kommission oder auf Standardvertragsklauseln nach Art. 46 DSGVO.
 
-## 7. Speicherdauer und Löschung
+## 8. Speicherdauer und Löschung
 
 Wir speichern Ihre Daten nur so lange, wie es für den jeweiligen Zweck erforderlich ist.
 
 - **Plandaten:** Diese Daten liegen ausschließlich lokal auf Ihrem Gerät und bleiben dort, bis Sie sie in der App löschen oder die App deinstallieren.
 - **Gesundheitsdaten:** bis zum Widerruf Ihrer Einwilligung, bis Sie die Daten in der App löschen oder die App deinstallieren, spätestens jedoch 12 Monate nach Ihrer letzten Nutzung der App.
-- **Trennung von Intervals.icu:** Trennen Sie die Verbindung, löschen wir die zugehörigen Zugriffstoken umgehend. Bereits übernommene Daten löschen wir auf Ihren Wunsch oder mit der Löschung der App.
+- **Trennung von Intervals.icu oder Google Health:** Trennen Sie die Verbindung, löschen wir die zugehörigen Zugriffstoken umgehend. Bereits übernommene Daten löschen wir auf Ihren Wunsch oder mit der Löschung der App.
 - **Technische Protokolle:** nach 14 Tagen.
 
-## 8. Ihre Rechte
+## 9. Ihre Rechte
 
 Sie haben gegenüber uns folgende Rechte in Bezug auf Ihre personenbezogenen Daten:
 
@@ -95,7 +106,7 @@ Zur Ausübung genügt eine E-Mail an die in Abschnitt 1 genannte Adresse.
 
 Sie haben außerdem das Recht, sich bei einer Datenschutz-Aufsichtsbehörde zu beschweren. Zuständig ist Der Hamburgische Beauftragte für Datenschutz und Informationsfreiheit.
 
-## 9. Datensicherheit und Änderungen
+## 10. Datensicherheit und Änderungen
 
 Wir schützen Ihre Daten durch technische und organisatorische Maßnahmen, darunter verschlüsselte Übertragung (TLS), verschlüsselte Speicherung von Zugriffstoken, Zugriffsbeschränkungen und regelmäßige Updates.
 
